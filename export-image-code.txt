@@ -1,0 +1,6 @@
+Route::get('export-image', function () {
+    $employees = Employee::get(['Employee_id', 'ImagePhoto']);
+    foreach ($employees as $employee) {
+        file_put_contents(public_path('assets\\images\\' . $employee->Employee_id . '.jpg'), $employee->ImagePhoto);
+    }
+});
