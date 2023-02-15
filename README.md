@@ -4,5 +4,5 @@
 
 <h3>What I learned</h3>
 
-    1. Integrating <a href="https://github.com/mike42/escpos-php"> Mike42 POS </a> to print the receipt for attendance.
-    2. Integrating Face biometric for faster attendance recording to the system.
+1. Integrating [Mike42 ESC/POS Print Driver for PHP](https://github.com/mike42/escpos-php) to print the receipt for attendance.
+2. Integrating Face biometric for faster attendance recording to the system.
